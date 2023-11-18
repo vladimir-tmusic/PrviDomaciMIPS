@@ -1,0 +1,7 @@
+Vladimir Tmušić
+Samoglasnik 5
+Suglasnik 9
+Pošto imam više suglasnika nego samoglasnika biram port B.
+Ukupno ima 14 slova, 14%6=2 pa iz toga biram pin 2.
+Prvo je dioda upaljena 8ms, nakon toga je ugašena 6ms, to se ponavlja osam puta; drugi ciklus je suprotno od prvog ciklusa, upaljena 6ms, nakon toga je ugašena 8ms i to se ponavlja šest puta. Ciklusi se međusobno smenjuju.
+Šema sadrži sledeće komponente: Prvo je dodato STM32F103C6, nakon toga otporik R1 vrednosti 500 ohma i LED dioda crvene boje. Takođe je dodat i osciloskop.
